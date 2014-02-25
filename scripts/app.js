@@ -1,4 +1,4 @@
-var app = angular.module('flickrApp', ['ngResource', 'infinite-scroll', 'LocalStorageModule']);
+var app = angular.module('flickrApp', ['ngRoute', 'ngResource', 'infinite-scroll', 'LocalStorageModule']);
 
 
 app.config(['$routeProvider', function ($routeProvider) {
